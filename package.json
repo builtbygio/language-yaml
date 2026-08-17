@@ -1,6 +1,6 @@
 {
   "name": "language-yaml",
-  "version": "0.33.0",
+  "version": "0.34.0",
   "description": "YAML language support in Chevron",
   "keywords": [
     "tree-sitter"
