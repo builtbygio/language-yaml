@@ -1,19 +1,26 @@
 {
   "name": "language-yaml",
-  "version": "0.32.1",
-  "description": "YAML language support in Atom",
+  "version": "0.34.1",
+  "description": "YAML language support in Chevron",
+  "keywords": [
+    "tree-sitter"
+  ],
   "engines": {
     "atom": "*",
-    "node": "*"
+    "node": "*",
+    "chevron": "*"
   },
   "homepage": "http://atom.github.io/language-yaml",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-yaml.git"
+    "url": "https://github.com/builtbygio/language-yaml.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-yaml/issues"
+    "url": "https://github.com/builtbygio/chevron/issues"
+  },
+  "dependencies": {
+    "@tree-sitter-grammars/tree-sitter-yaml": "0.7.1"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
